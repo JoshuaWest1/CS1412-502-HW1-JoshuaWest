@@ -26,12 +26,12 @@ int total_number;//The result off adding first_number, second_number, and third_
 
 
  if (MenuOption == 1) {
-printf("\nPlease Enter Three Integers\n");
+printf("\nPlease Enter Three Integers With Spaces Inbetween\n");
 scanf("%d%d%d",&first_number,&second_number,&third_number);
 
-  printf("\n%d\n%d\n%d",first_number,second_number,third_number);
+  printf("\n%d + %d + %d",first_number,second_number,third_number);
   total_number=first_number+second_number+third_number;
-  printf("\n\n%d\n\n",total_number);
+  printf(" = %d\n\n",total_number);
  }
 
 
